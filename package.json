@@ -11,7 +11,7 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
-    "@stencil/core": "^3.3.1",
+    "@stencil/core": "^4.0.1",
     "@stencil/router": "^1.0.1",
     "@types/jest": "^27.0.3",
     "jest": "^27.4.5",
@@ -20,6 +20,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "wrangler": "^3.1.0"
+    "wrangler": "^3.1.2"
   }
 }
