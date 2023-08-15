@@ -1,16 +1,16 @@
 # Repository for Workerd issue https://github.com/cloudflare/workerd/issues/1009
 
 This repository has 3 parts:
-1.  Client (stenciljs)
-    starts websocket
+1.  Client (stenciljs)  
+    starts websocket  
     Key code is in [profile.tsx](/src/components/app-profile/app-profile.tsx)
 
-2.  Pages function open
-    receives websocket request & forwards to durable object
+2.  Pages function open  
+    receives websocket request & forwards to durable object  
     Code is in [open.ts](/functions/open.ts)
 
-3.  durable object my_do
-    terminates websocket request
+3.  durable object my_do  
+    terminates websocket request  
     code is in [index.ts](/packages/my_do/src/index.ts)
 
 To create repository
