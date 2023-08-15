@@ -1,0 +1,12 @@
+name = "my-do"
+main = "src/index.ts"
+compatibility_date = "2023-08-11"
+compatibility_flags = ["durable_object_alarms"]
+[durable_objects]
+bindings = [
+  { name="MY_DO", class_name="MyDO"}
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["MyDO"]
